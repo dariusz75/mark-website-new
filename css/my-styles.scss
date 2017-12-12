@@ -1,0 +1,242 @@
+$brighter-background: #EFEFEF;
+$darker-background: #E3E5E4;
+
+$main-text-size: 1.3em;
+
+$main-padding: 60px 5%;
+
+
+/* --##################################################################################-- */
+
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+ 
+ h1, h2, h3, h4, h5 {
+ 	font-weight: 400;
+ 	color: #777;
+ } 
+
+
+/* --######### NAVIGATION SECTION #####################################################-- */
+.navbar {
+
+	.navbar-brand {
+		padding-top: 10px;
+
+		.fa {
+			padding-right: 10px;
+		}
+
+	}
+
+	.nav{
+	font-size: 2rem;
+}
+
+}
+
+
+/* --######### TOP PICTURE SECTION #####################################################-- */
+.top-pict-col{
+	background-color: #CCFFE5;
+	padding: 0;
+	margin: 50px 0 0 0;
+
+	img{
+		width: 100%;
+	}
+
+}
+
+
+/* --######### ABOUT SECTION #####################################################-- */
+#about-me{
+	background-color: $brighter-background;
+	font-size: $main-text-size;
+	text-align: center;
+	padding: $main-padding;
+
+	.my_photo{
+  	padding-top: 3rem;
+  	margin-left: auto;
+  	margin-right: auto; 
+	}
+
+	.about-me-col {
+
+		h1 {
+			margin: 10px, 0;
+		}
+
+		p {
+			padding: 20px 5% 20px 5%;
+		}
+
+	}
+
+	.social-icons {
+		font-size: 3em;
+	}
+
+}
+
+
+/* --######### SKILLS SECTION #####################################################-- */
+#skills {
+	background-color: $darker-background;
+	font-size: $main-text-size;
+	text-align: center;
+	padding: $main-padding;
+
+
+	 a {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    img {
+    	margin-bottom: 0px;
+    	display: block;
+    	width: 100%;
+    	max-width: 100%;
+		}
+	}
+
+	
+
+	h1{
+		margin: 0;
+	}
+
+	p{
+		padding: 20px 5% 0 5%;
+	}
+
+	li {
+		list-style: none;
+	}
+
+}
+
+
+/* --######### EXPERIENCE SECTION #####################################################-- */
+#experience{
+	background-color: $brighter-background;
+	font-size: $main-text-size;
+	text-align: center;
+	padding: $main-padding;
+
+	h1{
+		margin: 0;
+	}
+
+	p{
+		padding: 20px 2% 20px 2%;
+	}
+}
+
+
+/* --######### PORTFOLIO SECTION #####################################################-- */
+#portfolio{
+	padding: $main-padding;
+		
+		h1{
+		text-align: center;
+		margin: 0 0 60px 0;
+		&:last-of-type {
+			margin: 30px 0 20px 0;
+		}		
+	}
+	
+}
+
+
+/* --######### CONTACT SECTION #####################################################-- */
+#contact{
+	padding: 60px 5% 160px 5%;
+	background-color: $darker-background;
+
+	.contact-content{
+		text-align: center;
+		padding: 0px 5% 0px 0px;
+
+		h2{
+			font-size: 2em;
+		}
+	}
+
+	.form-top{
+		margin-top: 25px;
+	}
+
+}
+
+
+/* --######### FOOTER #####################################################-- */
+
+footer{
+	padding: 20px 1% 0px 0px;
+
+	.footer-left{
+		display: inline-block;
+	}
+
+	.footer-right{
+		float: right;
+		display: table;
+	}
+
+	a {
+		float: right;
+		top: -10;
+	}
+
+}
+
+
+/* --######### POP HOVER scrolling screen #####################################################-- */
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* --######### Additional #####################################################-- */
+
+.bordered {
+	border: solid 3px #fff;
+}
+
+.gallery-title {
+	margin-bottom: 10px;
+}
