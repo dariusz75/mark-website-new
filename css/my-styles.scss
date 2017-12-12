@@ -1,16 +1,19 @@
-$brighter-background: #EFEFEF;
-$darker-background: #E3E5E4;
+$main-text-color: #444;
+$brighter-background: #409692;
+$darker-background: #4D7FA1; 
 
 $main-text-size: 1.3em;
+$main-text-bigger: 1.8em;
 
-$main-padding: 60px 5%;
+$about-padding: 60px 5% 0 5%;
+$main-padding: 40px 5% 0 5%;
 
 
 /* --##################################################################################-- */
 
 *{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
+  font-family:"Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff;
 }
  
  h1, h2, h3, h4, h5 {
@@ -23,8 +26,8 @@ $main-padding: 60px 5%;
 .navbar {
 
 	.navbar-brand {
-		padding-top: 10px;
-
+		padding-top: 15px;
+		font-weight: 700;
 		.fa {
 			padding-right: 10px;
 		}
@@ -33,53 +36,41 @@ $main-padding: 60px 5%;
 
 	.nav{
 	font-size: 2rem;
-}
 
 }
 
-
-/* --######### TOP PICTURE SECTION #####################################################-- */
-.top-pict-col{
-	background-color: #CCFFE5;
-	padding: 0;
-	margin: 50px 0 0 0;
-
-	img{
-		width: 100%;
-	}
-
 }
+
+
+
 
 
 /* --######### ABOUT SECTION #####################################################-- */
 #about-me{
 	background-color: $brighter-background;
-	font-size: $main-text-size;
+	font-size: $main-text-bigger;
 	text-align: center;
-	padding: $main-padding;
-
-	.my_photo{
-  	padding-top: 3rem;
-  	margin-left: auto;
-  	margin-right: auto; 
-	}
+	padding: $about-padding;
+	height: 100vh;
 
 	.about-me-col {
 
 		h1 {
 			margin: 10px, 0;
+			font-size: 1.9em;
+			font-style: uppercase;
+			font-weight: 700;
+			color: #fff;
 		}
 
 		p {
 			padding: 20px 5% 20px 5%;
 		}
 
+		.p1{
+			font-size: 1.5em;
+		}
 	}
-
-	.social-icons {
-		font-size: 3em;
-	}
-
 }
 
 
@@ -89,6 +80,7 @@ $main-padding: 60px 5%;
 	font-size: $main-text-size;
 	text-align: center;
 	padding: $main-padding;
+	height: 100vh;
 
 
 	 a {
@@ -103,36 +95,42 @@ $main-padding: 60px 5%;
 		}
 	}
 
-	
-
 	h1{
 		margin: 0;
+		color: #fff;
+		font-weight: 500;
 	}
 
 	p{
 		padding: 20px 5% 0 5%;
 	}
-
-	li {
-		list-style: none;
-	}
-
 }
 
 
 /* --######### EXPERIENCE SECTION #####################################################-- */
 #experience{
 	background-color: $brighter-background;
-	font-size: $main-text-size;
+	font-size: $main-text-bigger;
 	text-align: center;
 	padding: $main-padding;
+	height: 100vh;
 
 	h1{
 		margin: 0;
+		color: #fff;
+		font-weight: 500;
 	}
 
 	p{
 		padding: 20px 2% 20px 2%;
+	}
+
+	.p1 {
+
+	}
+
+	.p2 {
+
 	}
 }
 
@@ -155,7 +153,7 @@ $main-padding: 60px 5%;
 /* --######### CONTACT SECTION #####################################################-- */
 #contact{
 	padding: 60px 5% 160px 5%;
-	background-color: $darker-background;
+	background-color: #1cbb9b;
 
 	.contact-content{
 		text-align: center;
@@ -163,11 +161,16 @@ $main-padding: 60px 5%;
 
 		h2{
 			font-size: 2em;
+			color: #fff;
 		}
 	}
 
 	.form-top{
 		margin-top: 25px;
+	}
+
+	.btn-primary {
+		background-color: $darker-background;
 	}
 
 }
@@ -180,6 +183,9 @@ footer{
 
 	.footer-left{
 		display: inline-block;
+		p{
+			color: $darker-background;
+		}
 	}
 
 	.footer-right{
@@ -187,10 +193,6 @@ footer{
 		display: table;
 	}
 
-	a {
-		float: right;
-		top: -10;
-	}
 
 }
 

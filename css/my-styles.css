@@ -1,7 +1,7 @@
 /* --##################################################################################-- */
 * {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300; }
+  font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #fff; }
 
 h1, h2, h3, h4, h5 {
   font-weight: 400;
@@ -9,43 +9,38 @@ h1, h2, h3, h4, h5 {
 
 /* --######### NAVIGATION SECTION #####################################################-- */
 .navbar .navbar-brand {
-  padding-top: 10px; }
+  padding-top: 15px;
+  font-weight: 700; }
   .navbar .navbar-brand .fa {
     padding-right: 10px; }
 .navbar .nav {
   font-size: 2rem; }
 
-/* --######### TOP PICTURE SECTION #####################################################-- */
-.top-pict-col {
-  background-color: #CCFFE5;
-  padding: 0;
-  margin: 50px 0 0 0; }
-  .top-pict-col img {
-    width: 100%; }
-
 /* --######### ABOUT SECTION #####################################################-- */
 #about-me {
-  background-color: #EFEFEF;
-  font-size: 1.3em;
+  background-color: #409692;
+  font-size: 1.8em;
   text-align: center;
-  padding: 60px 5%; }
-  #about-me .my_photo {
-    padding-top: 3rem;
-    margin-left: auto;
-    margin-right: auto; }
+  padding: 60px 5% 0 5%;
+  height: 100vh; }
   #about-me .about-me-col h1 {
-    margin: 10px, 0; }
+    margin: 10px, 0;
+    font-size: 1.9em;
+    font-style: uppercase;
+    font-weight: 700;
+    color: #fff; }
   #about-me .about-me-col p {
     padding: 20px 5% 20px 5%; }
-  #about-me .social-icons {
-    font-size: 3em; }
+  #about-me .about-me-col .p1 {
+    font-size: 1.5em; }
 
 /* --######### SKILLS SECTION #####################################################-- */
 #skills {
-  background-color: #E3E5E4;
+  background-color: #4D7FA1;
   font-size: 1.3em;
   text-align: center;
-  padding: 60px 5%; }
+  padding: 40px 5% 0 5%;
+  height: 100vh; }
   #skills a {
     display: block;
     overflow: hidden;
@@ -56,26 +51,29 @@ h1, h2, h3, h4, h5 {
       width: 100%;
       max-width: 100%; }
   #skills h1 {
-    margin: 0; }
+    margin: 0;
+    color: #fff;
+    font-weight: 500; }
   #skills p {
     padding: 20px 5% 0 5%; }
-  #skills li {
-    list-style: none; }
 
 /* --######### EXPERIENCE SECTION #####################################################-- */
 #experience {
-  background-color: #EFEFEF;
-  font-size: 1.3em;
+  background-color: #409692;
+  font-size: 1.8em;
   text-align: center;
-  padding: 60px 5%; }
+  padding: 40px 5% 0 5%;
+  height: 100vh; }
   #experience h1 {
-    margin: 0; }
+    margin: 0;
+    color: #fff;
+    font-weight: 500; }
   #experience p {
     padding: 20px 2% 20px 2%; }
 
 /* --######### PORTFOLIO SECTION #####################################################-- */
 #portfolio {
-  padding: 60px 5%; }
+  padding: 40px 5% 0 5%; }
   #portfolio h1 {
     text-align: center;
     margin: 0 0 60px 0; }
@@ -85,26 +83,28 @@ h1, h2, h3, h4, h5 {
 /* --######### CONTACT SECTION #####################################################-- */
 #contact {
   padding: 60px 5% 160px 5%;
-  background-color: #E3E5E4; }
+  background-color: #1cbb9b; }
   #contact .contact-content {
     text-align: center;
     padding: 0px 5% 0px 0px; }
     #contact .contact-content h2 {
-      font-size: 2em; }
+      font-size: 2em;
+      color: #fff; }
   #contact .form-top {
     margin-top: 25px; }
+  #contact .btn-primary {
+    background-color: #4D7FA1; }
 
 /* --######### FOOTER #####################################################-- */
 footer {
   padding: 20px 1% 0px 0px; }
   footer .footer-left {
     display: inline-block; }
+    footer .footer-left p {
+      color: #4D7FA1; }
   footer .footer-right {
     float: right;
     display: table; }
-  footer a {
-    float: right;
-    top: -10; }
 
 /* --######### POP HOVER scrolling screen #####################################################-- */
 @-webkit-keyframes hvr-pop {
