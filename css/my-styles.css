@@ -21,8 +21,7 @@ h1, h2, h3, h4, h5 {
   background-color: #409692;
   font-size: 1.8em;
   text-align: center;
-  padding: 60px 5% 0 5%;
-  height: 100vh; }
+  padding: 60px 5%; }
   #about-me .about-me-col h1 {
     margin: 10px, 0;
     font-size: 1.9em;
@@ -39,8 +38,7 @@ h1, h2, h3, h4, h5 {
   background-color: #4D7FA1;
   font-size: 1.3em;
   text-align: center;
-  padding: 40px 5% 0 5%;
-  height: 100vh; }
+  padding: 60px 5%; }
   #skills a {
     display: block;
     overflow: hidden;
@@ -62,8 +60,7 @@ h1, h2, h3, h4, h5 {
   background-color: #409692;
   font-size: 1.8em;
   text-align: center;
-  padding: 40px 5% 0 5%;
-  height: 100vh; }
+  padding: 60px 5% 250px 5%; }
   #experience h1 {
     margin: 0;
     color: #fff;
@@ -73,7 +70,7 @@ h1, h2, h3, h4, h5 {
 
 /* --######### PORTFOLIO SECTION #####################################################-- */
 #portfolio {
-  padding: 40px 5% 0 5%; }
+  padding: 60px 5%; }
   #portfolio h1 {
     text-align: center;
     margin: 0 0 60px 0; }
@@ -83,7 +80,8 @@ h1, h2, h3, h4, h5 {
 /* --######### CONTACT SECTION #####################################################-- */
 #contact {
   padding: 60px 5% 160px 5%;
-  background-color: #1cbb9b; }
+  background-color: #1cbb9b;
+  padding: 60px 5% 250px 5%; }
   #contact .contact-content {
     text-align: center;
     padding: 0px 5% 0px 0px; }
